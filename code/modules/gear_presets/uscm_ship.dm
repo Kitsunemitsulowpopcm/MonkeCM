@@ -549,7 +549,7 @@
 //*****************************************************************************************************/
 
 /datum/equipment_preset/uscm_ship/so
-	name = "USCM Platoon Commander (PCDR)"
+	name = "USCM Platoon Leader (PL)"
 	flags = EQUIPMENT_PRESET_START_OF_ROUND|EQUIPMENT_PRESET_MARINE
 
 	idtype = /obj/item/card/id/silver
@@ -557,7 +557,7 @@
 	assignment = JOB_SO
 	rank = JOB_SO
 	paygrade = PAY_SHORT_MO1
-	role_comm_title = "PCDR"
+	role_comm_title = "PL"
 	minimum_age = 25
 	skills = /datum/skills/SO
 

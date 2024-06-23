@@ -1,7 +1,7 @@
 /datum/job/command/bridge
 	title = JOB_SO
-	total_positions = 4
-	spawn_positions = 4
+	total_positions = 3
+	spawn_positions = 3
 	flags_startup_parameters = ROLE_ADD_TO_DEFAULT
 	gear_preset = /datum/equipment_preset/uscm_ship/so
 	entry_message_body = "<a href='"+WIKI_PLACEHOLDER+"'>Your job is to command a platoon from the ground</a> You are in charge of executing the commanding officer's orders."
