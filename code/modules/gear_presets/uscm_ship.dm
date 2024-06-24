@@ -396,14 +396,14 @@
 //*****************************************************************************************************/
 
 /datum/equipment_preset/uscm_ship/commander
-	name = "USCM Company Commander (CO)"
+	name = "USCM Company Commander (CPT)"
 	flags = EQUIPMENT_PRESET_START_OF_ROUND|EQUIPMENT_PRESET_MARINE
 
 	idtype = /obj/item/card/id/gold
 	assignment = JOB_CO
 	rank = JOB_CO
 	paygrade = PAY_SHORT_MO3
-	role_comm_title = "CO"
+	role_comm_title = "CPT"
 	minimum_age = 30
 	skills = /datum/skills/commander
 
