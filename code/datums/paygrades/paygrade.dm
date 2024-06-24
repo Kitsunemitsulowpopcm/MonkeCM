@@ -34,6 +34,12 @@ GLOBAL_LIST_INIT(co_paygrades, list(
 	PAY_SHORT_MO4
 ))
 
+GLOBAL_LIST_INIT(medal_paygrades, list(
+	PAY_SHORT_MO5,
+	PAY_SHORT_MO4,
+	PAY_SHORT_MO3,
+))
+
 /datum/paygrade/New()
 	. = ..()
 	switch(default_faction)
